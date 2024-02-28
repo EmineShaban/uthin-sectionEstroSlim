@@ -1,0 +1,46 @@
+@font-face {
+    font-family: externalFont;
+    src: url(https://lesthe.com/cdn/uthin/inc/assets-black/fonts/GTWalsheimPro-Bold.woff);
+}
+
+@font-face {
+    font-family: externalFontLight;
+    src: url(https://lesthe.com/cdn/uthin/inc/assets-black/fonts/GTWalsheimPro-Medium.woff);
+}
+
+@font-face {
+    font-family: externalFont2;
+    src: url(https://lesthe.com/cdn/uthin/inc/assets-black/fonts/GTWalsheimPro-Black.woff);
+}
+
+
+.xtroBurn-banner{
+    background-color: #ff952f;
+    position: relative;
+    
+}
+
+.xtroBurn{
+    margin: 50px 0;
+}
+
+.xtroBurn-banner h2{
+    position: absolute;
+    top: 50%;
+    left: 33%;
+    transform: translate(-50%, -50%);
+    color: white; 
+    font-size: 35px;
+    line-height: 1.6;
+    text-transform: uppercase;
+    font-family: externalFont2;
+
+}
+.xtroBurn-banner h2 span:last-child{
+font-weight: 900;
+
+}
+.xtroBurn-banner-img{
+    width: 90%;
+    margin: auto;
+}
