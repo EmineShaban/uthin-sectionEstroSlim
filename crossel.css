@@ -288,3 +288,23 @@
   padding: 22px;
   text-align: center;
 }
+
+/* xtroBurn-how-to-use-content */
+
+.xtroBurn-how-to-use{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 55px auto;
+}
+.xtroBurn-how-to-use-content{
+  display: flex;
+}
+
+.xtroBurn-how-to-use-content img{
+  width: 150px;
+  margin-right: 25px;
+}
+
+.xtroBurn-how-to-use-content div{
+  margin: auto 0;
+}
