@@ -168,93 +168,123 @@
   line-height: 1.4;
   font-weight: 100;
   font-family: externalFontLight;
-
 }
 
 .xtroBurn-ingredients-red h2 span {
   font-family: externalFont2;
 }
 
-
-
 /* ingredients */
-
-
-
-
 
 /* xtroBurn-banner */
 
- .xtroBurn-banner{
-    position: relative;
- }
+.xtroBurn-banner {
+  position: relative;
+}
 
- .xtroBurn-banner-div{
-    position: absolute;
-    top: 50%;
-    left: 18%;
-    transform: translate(-50%, -50%);
- }
- .xtroBurn-banner-div p{
-    text-transform: uppercase;
-    font-size: 35px;
-    line-height: 1.1;
-    font-family: externalFont;
-    font-weight: 400;
+.xtroBurn-banner-div {
+  position: absolute;
+  top: 50%;
+  left: 18%;
+  transform: translate(-50%, -50%);
+}
+.xtroBurn-banner-div p {
+  text-transform: uppercase;
+  font-size: 35px;
+  line-height: 1.1;
+  font-family: externalFont;
+  font-weight: 400;
+}
+.xtroBurn-banner-div p:nth-child(1) {
+  color: white;
+  margin-left: 12px;
+}
+.xtroBurn-banner-div p:nth-child(2) {
+  background-color: white;
+  color: #e33c2f;
+  padding: 3px 12px;
+  width: 85%;
+  margin-bottom: 25px;
+}
+.xtroBurn-banner-div img {
+  width: 350px;
+}
 
- }
- .xtroBurn-banner-div p:nth-child(1){
-    color: white;
-    margin-left: 12px;
+.xtroBurn-banner2 {
+  background-color: #e33c2f;
+  color: white;
+  margin: 5px 0;
+  padding: 7px 15px;
+  font-size: 18px;
+}
 
- }
- .xtroBurn-banner-div p:nth-child(2){
-    background-color: white;
-    color: #e33c2f;
-    padding: 3px 12px;
-    width: 85%;
-    margin-bottom: 25px;
- }
- .xtroBurn-banner-div img{
-    width: 350px;
- }
+/* cross-ingredients */
 
- .xtroBurn-banner2{
-    background-color: #e33c2f;
-    color: white;
-    margin: 5px 0;
-    padding: 7px 15px;
-    font-size: 18px;
- }
-
-
- /* cross-ingredients */
-
- .cross-ingredients{
+.cross-ingredients {
   /* display: grid;
   grid-template-columns: 1fr 1fr 1fr; */
   display: flex;
   justify-content: space-between;
   margin-bottom: 75px;
- }
+}
 
- .cross-ingredients-content img{
-  width: 250px; 
- }
+.cross-ingredients-content img {
+  width: 250px;
+}
 
- .cross-ingredients-content h3{
+.cross-ingredients-content h3 {
   font-size: 23px;
- }
+}
 
- .cross-ingredients-content ul{
+.cross-ingredients-content ul {
   margin: 25px 0;
- }
+}
 
- .cross-ingredients-content ul li{
+.cross-ingredients-content ul li {
   list-style-type: disc;
   margin-left: 20px;
- }
- /* .cross-ingredients{
-  width: 90%;
-  margin: auto;
- } */
+}
+
+.main-cross-div img {
+  width: 80px;
+  margin-right: 15px;
+}
+
+.main-cross {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 40px auto;
+
+}
+
+.main-cross-div {
+  display: flex;
+  border: #e33c2f 2px solid;
+  margin-right: 20px;
+  border-radius: 12px;
+  padding: 10px;
+}
+
+.main-cross-text {
+  color: #e33c2f;
+  margin: auto 0;
+}
+.main-cross-text h3 {
+  font-family: "externalFont2";
+  margin-bottom: 3px;
+}
+
+
+/* xtroBurn-red-line */
+
+.xtroBurn-red-line{
+  width: 85%;
+  background-color: #e33c2f;
+  color: white;
+}
+
+.xtroBurn-red-line h2{
+  font-size: 28px; 
+  padding: 22px;
+  text-align: center;
+}
