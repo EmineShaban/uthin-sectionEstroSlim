@@ -17,6 +17,14 @@
   background-color: #ff952f;
   position: relative;
 }
+.desktop-xtroBurn1 {
+  display: block;
+}
+
+.mobile-xtroBurn1 {
+  display: none;
+}
+
 .desktop-xtroBurn {
   display: block;
 }
@@ -310,6 +318,7 @@
 }
 .xtroBurn-how-to-use-content {
   display: flex;
+  margin-right: 15px;
 }
 
 .xtroBurn-how-to-use-content img {
@@ -587,6 +596,13 @@
 }
 
 @media screen and (max-width: 768px) {
+  .desktop-xtroBurn1 {
+    display: none;
+  }
+
+  .mobile-xtroBurn1 {
+    display: block;
+  }
   .cross-ingredients {
     display: block;
   }
@@ -603,12 +619,13 @@
     text-align: center;
   }
   .xtroBurn-banner2 p {
-    font-size: 22px;
+    font-size: 20px;
     line-height: 1.4;
   }
   .uppercase {
     text-transform: uppercase;
     font-weight: 800;
+    font-size: 20px;
   }
 
   .xtroBurn-banner-div {
@@ -630,17 +647,159 @@
   .main-cross-div img {
     width: 100px;
     margin-right: 15px;
-}
+  }
 
-.main-cross-div{
+  .main-cross-div {
+    width: 60%;
+    margin: 10px auto;
+  }
+  .xtroBurn-red-line {
+    width: 100%;
+  }
+  .xtroBurn-how-to-use {
+    display: block;
+    background-color: #e43d30;
+  }
+  .xtroBurn-how-to-use {
+    margin: 0;
+  }
+  .no-sweat-h2 {
+    color: #e43d2f;
+    text-align: center;
+    font-size: 35px;
+    line-height: 1.2;
+    font-family: "externalFontLight";
+    margin: 15px auto;
+    font-weight: 100;
+  }
+  .xtroBurn-how-to-use-content div {
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .xtroBurn-how-to-use-content div h2{
+    margin: 10px;
+  }
+  .xtroBurn-how-to-use-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+.xtroBurn-how-to-use-content img{
+  width: 120px;
+}
+.xtroBurn-how-to-use-content div p{
+  font-family: "externalFontLight";
   width: 60%;
-  margin: 10px auto;
+  margin: auto;
+
+}
+.no-sweat-div {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.xtroBurn-banner2 p {
+  font-size: 16px;
+  line-height: 1.4;
 }
 
 
 
+}
 
+@media screen and (max-width: 414px) {
+  .xtroBurn-banner-div p:nth-child(2) {
+    margin-bottom: 0px;
+    display: inline-block;
+}
+  .xtroBurn-yellow-banner h2 span:last-child {
+    font-size: 40px;
+  }
+  .xtroBurn-yellow-banner h2 {
+    font-size: 25px;
+  }
+  .xtroBurn-red-banner h2:nth-child(1) {
+    font-size: 33px;
+  }
+  .xtroBurn-red-banner h2:nth-child(2) {
+    font-size: 30px;
+    padding-top: 0px;
+  }
+  .xtroBurn-red-banner h2 {
+    padding: 17px;
+  }
+  .xtroBurn-red-banner-grid-text p {
+    padding: 12px;
+    font-size: 15px;
+  }
+  .cross-ingredients-content img {
+    width: 120px;
+  }
+  .xtroBurn-banner-div img {
+    width: 300px;
+    margin-top: 15px;
+  }
+  .xtroBurn-banner-div p {
+    font-size: 25px;
+  }
+  .main-cross-div {
+    width: 80%;
+  }
+  .xtroBurn-cta a {
+    padding: 20px 50px;
+    font-size: 24px;
+  }
+  .cross-ingredients-content ul {
+    margin: 15px 0;
+  }
 
+  .no-sweat-btn {
+    text-align: center;
+    background-color: #33459a;
+    color: white;
+    padding: 9px 23px;
+    font-size: 17px;
+    font-family: externalFont;
+    letter-spacing: 1px;
+}
 
+.xtroBurn-red-banner-grid-text p:nth-child(1) {
+  margin: 0;
+  line-height: 8px;
+  font-weight: 600;
+}
+.xtroBurn-red-banner-grid-text p:last-child{
+  line-height: 8px;
+font-weight: 600;
+}
+}
+@media screen and (max-width: 375px) {
+  .no-sweat-btn {
+    background-color: #33459a;
+    color: white;
+    padding: 8px 23px;
+    font-size: 15px;
+    font-family: externalFont;
+    letter-spacing: 1px;
+  }
+  .xtroBurn-prod {
+    width: 55%;
+    margin: auto;
+  }
+  .xtroBurn-red-banner-grid-text {
+    position: absolute;
+    top: 15%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+  }
+  .xtroBurn-red-banner-grid-bullets-div img {
+    width: 70px;
+  }
 
+  
 }
