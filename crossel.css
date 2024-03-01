@@ -19,7 +19,7 @@
 }
 
 .xtroBurn {
-  margin: 50px 0;
+  margin-top: 50px;
 }
 
 .xtroBurn-yellow-banner h2 {
@@ -254,7 +254,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   margin: 40px auto;
-
 }
 
 .main-cross-div {
@@ -274,37 +273,80 @@
   margin-bottom: 3px;
 }
 
-
 /* xtroBurn-red-line */
 
-.xtroBurn-red-line{
+.xtroBurn-red-line {
   width: 85%;
   background-color: #e33c2f;
   color: white;
 }
 
-.xtroBurn-red-line h2{
-  font-size: 28px; 
+.xtroBurn-red-line h2 {
+  font-size: 28px;
   padding: 22px;
   text-align: center;
 }
 
 /* xtroBurn-how-to-use-content */
 
-.xtroBurn-how-to-use{
+.xtroBurn-how-to-use {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 55px auto;
+  margin: 85px auto;
+  margin-bottom: 125px;
 }
-.xtroBurn-how-to-use-content{
+.xtroBurn-how-to-use-content {
   display: flex;
 }
 
-.xtroBurn-how-to-use-content img{
+.xtroBurn-how-to-use-content img {
   width: 150px;
   margin-right: 25px;
 }
 
-.xtroBurn-how-to-use-content div{
+.xtroBurn-how-to-use-content div {
   margin: auto 0;
+}
+
+/* no-sweat */
+
+.no-sweat {
+  position: relative;
+}
+
+.no-sweat-div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  justify-content: space-evenly;
+  height: 100%;
+}
+
+.no-sweat-div h2 {
+  text-transform: uppercase;
+  color: white;
+  font-family: externalFontLight;
+  font-weight: 100;
+  font-size: 45px;
+  line-height: 1.4;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.no-sweat-btn {
+  background-color: #33459a;
+  color: white;
+  padding: 10px 30px;
+  font-size: 25px;
+  font-family: externalFont;
+  letter-spacing: 1px;
+}
+
+.no-sweat-div div {
+  display: flex;
+  justify-content: center;
 }
