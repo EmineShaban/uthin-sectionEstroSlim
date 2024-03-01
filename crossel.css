@@ -25,10 +25,10 @@
 .xtroBurn-yellow-banner h2 {
   position: absolute;
   top: 50%;
-  left: 42%;
+  left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  font-size: 35px;
+  font-size: 32px;
   line-height: 1.6;
   text-transform: uppercase;
   font-family: externalFont;
@@ -226,3 +226,35 @@
     padding: 7px 15px;
     font-size: 18px;
  }
+
+
+ /* cross-ingredients */
+
+ .cross-ingredients{
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr; */
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 75px;
+ }
+
+ .cross-ingredients-content img{
+  width: 250px; 
+ }
+
+ .cross-ingredients-content h3{
+  font-size: 23px;
+ }
+
+ .cross-ingredients-content ul{
+  margin: 25px 0;
+ }
+
+ .cross-ingredients-content ul li{
+  list-style-type: disc;
+  margin-left: 20px;
+ }
+ /* .cross-ingredients{
+  width: 90%;
+  margin: auto;
+ } */
